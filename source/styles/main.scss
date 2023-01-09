@@ -1,0 +1,57 @@
+@use 'variaveis';
+
+body {
+    font-family: variaveis.$fontPrincipal;
+}
+
+.navbar {
+    background-color:variaveis.$corCabecalho;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: variaveis.$corDoBotao;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-historia .nav-link.nav-link.active:hover {
+    color:  rgba(87, 86, 86, 0.842);
+}
+
+.navbar-toggler {
+    background-color: #eaffd8;
+}
+
+#sinopse, #historia {
+    background-color:variaveis.$corDeFundo;
+}
+
+#personagem {
+    background-image: url(https://img.freepik.com/fotos-gratis/ceu-estrelado_1048-11828.jpg?w=2000);
+    color: antiquewhite;
+}
+
+.nav-historia .nav-link.active,
+#fale-conosco button {
+    background-color: variaveis.$corDoBotao;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.nav-historia .nav-link:hover {
+    color: rgb(1, 1, 20);
+}
+
+.text-colored {
+    color:  rgba(87, 86, 86, 0.842);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
